@@ -1,0 +1,4 @@
+@EndUserText.label: 'service def for gelink'
+define service ZMM_SRV_GLINK {
+  expose ZMM_C_GL;
+}

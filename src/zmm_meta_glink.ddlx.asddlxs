@@ -1,0 +1,53 @@
+@Metadata.layer: #CORE
+annotate entity ZMM_C_GL
+    with 
+{
+@EndUserText.label: 'Material Document Year'
+    @UI: { lineItem: [{ position: 10 }], identification: [{ position: 10 }] }
+    MaterialDocumentYear;
+
+    @EndUserText.label: 'Material Document'
+    @UI: { lineItem: [{ position: 20 }], identification: [{ position: 20 }] }
+    MaterialDocument;
+
+    @EndUserText.label: 'Material Document Item'
+    @UI: { lineItem: [{ position: 30 }], identification: [{ position: 30 }] }
+    MaterialDocumentItem;
+
+    @EndUserText.label: 'Material'
+    @UI: { lineItem: [{ position: 40 }], identification: [{ position: 40 }] }
+    Material;
+
+    @EndUserText.label: 'Plant'
+    @UI: { lineItem: [{ position: 50 }], identification: [{ position: 50 }] }
+    Plant;
+
+    @EndUserText.label: 'Storage Location'
+    @UI: { lineItem: [{ position: 60 }], identification: [{ position: 60 }] }
+    StorageLocation;
+
+    @EndUserText.label: 'Storage Type'
+    @UI: { lineItem: [{ position: 70 }], identification: [{ position: 70 }] }
+    StorageType;
+
+    @EndUserText.label: 'Storage Bin'
+    @UI: { lineItem: [{ position: 80 }], identification: [{ position: 80 }] }
+    StorageBin;
+
+    @EndUserText.label: 'Batch'
+    @UI: { lineItem: [{ position: 90 }], identification: [{ position: 90 }] }
+    Batch;
+
+    @EndUserText.label: 'Shelf Life Expiration Date'
+    @UI: { lineItem: [{ position: 100 }], identification: [{ position: 100 }] }
+    ShelfLifeExpirationDate;
+
+    @EndUserText.label: 'Manufacture Date'
+    @UI: { lineItem: [{ position: 110 }], identification: [{ position: 110 }] }
+    ManufactureDate;
+
+    @EndUserText.label: 'Vehicle Number'
+    @UI: { lineItem: [{ position: 120 }], identification: [{ position: 120 }] }
+    VehicleNumber;
+    
+}
